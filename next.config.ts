@@ -1,10 +1,10 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
   // forces Next.js to run Webpack instead of Turbopack
   experimental: {
-    webpackBuildWorker: false
-  }
-};
+    webpackBuildWorker: false,
+  },
+}
 
-export default nextConfig;
+export default nextConfig
